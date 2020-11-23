@@ -1,0 +1,109 @@
+@import url("root.css");
+
+/* ----------------------------------------------------------------- */
+/* ----------------------- Design Responsivo ------------------------ */
+/* ----------------------------------------------------------------- */
+
+@media screen and (min-width: 1100px){
+
+    footer div article div div.w50 {
+        width: 100%;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1100px){
+
+    footer div article.w20 {
+        width: 33%;
+    }
+
+    section article div div {
+        padding-bottom: 20px;
+    }
+    
+    section article div div h6 {
+        padding-top: 0px;
+    }    
+
+    section article div div.w50 {
+        width: 100%;
+    }
+
+    section div article.w33 {
+        width: 50%;
+    }
+
+    .cardsgroup {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+
+
+@media screen and (max-width: 700px){
+
+    nav.desktop {
+        display: none;
+    }
+
+    nav.mobile {
+        display: block;
+    }
+
+    .botao-menu-mobile {
+        font-size: 2rem;
+        color: var(--branco);
+        cursor: pointer;
+        padding-top: 11px;
+    }
+        
+    nav.mobile ul {
+        z-index: 3;
+        position: absolute;
+        display: none;
+        left: 0;
+        top: 77px;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav.mobile li {
+        width: 100%;
+        display: block;
+        background: var(--verdeDarkGreen);
+        border-bottom: 1px solid var(--cinzaSilver);
+        font-size: 1.2rem;
+        font-weight: 300;
+        padding: 5px 0;
+    }
+
+    nav.mobile li a {
+        display: block;
+        color: var(--branco);
+        text-decoration: none;
+    }
+
+    nav.mobile li a:hover {
+        color: var(--verdeYellowGreen);
+        text-decoration: none;
+    }
+
+    footer div article.w20 {
+        width: 100%;
+    }
+
+    section div article.w33 {
+        width: 100%;
+    }
+
+    section article div div div.w50 {
+        width: 100%;
+    }
+    
+}
+

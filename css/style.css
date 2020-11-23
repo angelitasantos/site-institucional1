@@ -1,0 +1,251 @@
+@import url("root.css");
+
+/* ----------------------------------------------------------------- */
+/* --------------------------- Principal --------------------------- */
+/* ----------------------------------------------------------------- */
+
+.clear {
+    clear: both;
+}
+
+.center {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.w20 {
+    width: 20%;
+    padding: 0 2%;
+}
+
+.w33 {
+    width: 33.3%;
+    padding: 0 2%;
+}
+
+.w50 {
+    width: 50%;
+    padding: 0 2%;
+}
+
+.textcenter {
+    text-align: center;
+    font-weight: 300;
+}
+
+.cardsgroup {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-between;
+}
+
+
+
+/* ----------------------------------------------------------------- */
+/* -------------------------- Navegação ---------------------------- */
+/* ----------------------------------------------------------------- */
+
+#navegacao {
+    background: var(--verdeYellowGreen);
+    position: fixed;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 3;
+}
+
+nav.desktop ul {
+    position: relative;
+    top: 18px;
+    list-style-type: none;
+}
+
+nav.desktop li {
+    display: inline-block;   
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 0 15px;
+}
+
+.logo {
+    padding-top: 2px;
+}
+
+.logo a {
+    color: var(--branco);
+}
+
+.logo a:hover {
+    color: var(--verdeDarkGreen);
+}
+
+.mobile {
+    display: none;
+}
+
+.conteudo {
+    width: 100%;
+    height: 65px;
+}
+
+
+
+/* ----------------------------------------------------------------- */
+/* -------------------=-------- Rodapé ----------------------------- */
+/* ----------------------------------------------------------------- */
+
+footer#rodape {
+    background: var(--cinzaGainsboro);
+    padding: 20px 0;
+}
+
+footer.fixed {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer div article ul li a:hover {
+    color: var(--verdeYellowGreen);
+}
+
+footer h6 {
+    font-weight: 600;
+}
+
+.redessociais a {
+    color: var(--verdeDarkGreen);
+}
+
+/* ----------------------------------------------------------------- */
+/* ---------------------- Banner Container ------------------------- */
+/* ----------------------------------------------------------------- */
+
+section.banner-container {
+    margin: 0;
+    width: 0 auto;
+    height: 500px;
+    position: relative;
+}
+
+.banner-single {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+section.banner-container div label {
+    z-index: 2;
+    width: 93%;
+    max-width: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+section.banner-container div label {
+    color: var(--verdeDarkGreen);
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+
+/* ----------------------------------------------------------------- */
+/* -------------------------- Quem Somos --------------------------- */
+/* ----------------------------------------------------------------- */
+
+section h6.textoQuemSomos {
+    padding-top: 10px;
+}
+
+section article {
+    text-align: center;
+}
+
+section article img {
+    width: 140px;
+    height: 140px;
+}
+
+section article div div h6 {
+    padding-top: 25px;
+}
+
+
+/* ----------------------------------------------------------------- */
+/* ---------------------------- Planos ----------------------------- */
+/* ----------------------------------------------------------------- */
+
+
+
+/* ----------------------------------------------------------------- */
+/* ---------------------------- Artigos ---------------------------- */
+/* ----------------------------------------------------------------- */
+
+article header img {
+    width: 180px;
+    height: 140px;
+}
+
+#artigos {
+    margin-bottom: 20px;
+}
+
+section div article header {
+    padding-top: 20px;
+}
+
+section div article div h6 {
+    padding: 20px 10px;
+}
+
+section div article footer {
+    padding-bottom: 20px;
+}
+
+
+
+/* ----------------------------------------------------------------- */
+/* --------------------------- Imagens ----------------------------- */
+/* ----------------------------------------------------------------- */
+
+.imgFinanceiro {
+    background-image: linear-gradient(rgba(255,255,255,0.8),rgba(255,255,255,0.8)100%), url(../img/financeiro.webp);
+}
+
+.imgProcessos {
+    background-image: linear-gradient(rgba(255,255,255,0.8),rgba(255,255,255,0.8)100%), url(../img/processos.webp);
+}
+
+.imgEstrutura {
+    background-image: linear-gradient(rgba(255,255,255,0.8),rgba(255,255,255,0.8)100%), url(../img/estrategia.webp);
+}
+
+
