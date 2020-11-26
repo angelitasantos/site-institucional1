@@ -3,7 +3,7 @@
 // ---------------------------------------------------------------------------------- //
 
 
-var textoPrincipal = "Serviços especializados em gestão financeira, administrativa e operacional."
+var textoPrincipal = "Serviços especializados em gestão das atividades financeiras, comerciais, operacionais e administrativas."
 $("#textoPrincipal").html(textoPrincipal);
 
 var btnInfo = "Mais informações"
@@ -48,7 +48,7 @@ $(".textoEstoque").html(textoEstoque);
 
 
 
-var textoCompras = "A otimização dos custos e o potencial aumento da lucratividade sobre as vendas atraves da padronização dos produtos do planejamento das compras com base no perfil dos seus clientes."
+var textoCompras = "Otimizar os custos e o potencial aumento da lucratividade sobre as vendas atraves da padronização do planejamento das compras com base no perfil dos seus clientes."
 $(".textoCompras").html(textoCompras);
 
 var textoProducao = "Levantar e analisar as interrupções nos processos produtivos e as respectivas causas dessas interrupções, viabilizando um maior ganho de produtividade."
